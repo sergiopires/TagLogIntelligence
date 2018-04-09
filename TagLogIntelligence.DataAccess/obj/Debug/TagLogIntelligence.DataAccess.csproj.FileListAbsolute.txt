@@ -1,0 +1,11 @@
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\bin\Debug\TagLogIntelligence.DataAccess.dll.config
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\bin\Debug\TagLogIntelligence.DataAccess.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\bin\Debug\TagLogIntelligence.DataAccess.pdb
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\bin\Debug\EntityFramework.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\bin\Debug\EntityFramework.xml
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\obj\Debug\TagLogIntelligence.DataAccess.csprojResolveAssemblyReference.cache
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\obj\Debug\TagLogIntelligence.DataAccess.csproj.CoreCompileInputs.cache
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\obj\Debug\TagLogIntelligence.DataAccess.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\obj\Debug\TagLogIntelligence.DataAccess.pdb

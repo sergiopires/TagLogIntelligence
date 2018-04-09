@@ -1,0 +1,6 @@
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Domain\bin\Debug\TagLogIntelligence.Domain.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Domain\bin\Debug\TagLogIntelligence.Domain.pdb
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Domain\obj\Debug\TagLogIntelligence.Domain.csprojResolveAssemblyReference.cache
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Domain\obj\Debug\TagLogIntelligence.Domain.csproj.CoreCompileInputs.cache
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Domain\obj\Debug\TagLogIntelligence.Domain.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Domain\obj\Debug\TagLogIntelligence.Domain.pdb
