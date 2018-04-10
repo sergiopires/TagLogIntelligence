@@ -49,9 +49,6 @@
   <ItemGroup>
     <Compile Include="Documents.cs" />
     <Compile Include="Mappers\AutoMapperConfig.cs" />
-    <Compile Include="Mappers\DomainToViewModelMappingProfile.cs" />
-    <Compile Include="Mappers\MapperObjects.cs" />
-    <Compile Include="Mappers\ViewModelToDomainMappingProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
