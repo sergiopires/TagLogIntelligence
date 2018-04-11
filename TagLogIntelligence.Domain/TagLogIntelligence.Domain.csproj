@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\ARQUIVO_VIP.cs" />
+    <Compile Include="Models\ArquivoUpload.cs" />
     <Compile Include="Models\ArquivoVip.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

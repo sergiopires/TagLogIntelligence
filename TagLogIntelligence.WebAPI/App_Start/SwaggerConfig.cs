@@ -2,6 +2,7 @@ using System.Web.Http;
 using WebActivatorEx;
 using TagLogIntelligence.WebAPI;
 using Swashbuckle.Application;
+using TagLogIntelligence.WebAPI.App_Start;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
@@ -61,7 +62,7 @@ namespace TagLogIntelligence.WebAPI
                         //c.BasicAuth("basic")
                         //    .Description("Basic HTTP Authentication");
                         //
-						// NOTE: You must also configure 'EnableApiKeySupport' below in the SwaggerUI section
+                        // NOTE: You must also configure 'EnableApiKeySupport' below in the SwaggerUI section
                         //c.ApiKey("apiKey")
                         //    .Description("API Key Authentication")
                         //    .Name("apiKey")
@@ -176,6 +177,7 @@ namespace TagLogIntelligence.WebAPI
                         // alternative implementation for ISwaggerProvider with the CustomProvider option.
                         //
                         //c.CustomProvider((defaultProvider) => new CachingSwaggerProvider(defaultProvider));
+                        c.OperationFilter<SwaggerFilterAuthorizationToken>();
                     })
                 .EnableSwaggerUi(c =>
                     {

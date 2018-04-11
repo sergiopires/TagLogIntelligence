@@ -8,6 +8,7 @@ using TagLogIntelligence.Domain.Models;
 using TagLogIntelligence.Repository;
 using AutoMapper;
 using System.Collections;
+using System.IO;
 
 namespace TagLogIntelligence.Business
 {
@@ -27,6 +28,15 @@ namespace TagLogIntelligence.Business
         {
             return _arq_Rep.lstArquivo();
         }
+
+        public void InsertDataFileVip(string fileName, Stream inputStream, string contentType)
+        {
+            //  Stream arquivo = file;
+       //  _arq_Rep.                
+
+    }
+
+
 
         public Documents()
         {
