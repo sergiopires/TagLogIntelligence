@@ -184,6 +184,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\DocumentsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -259,6 +260,16 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TagLogIntelligence.Business\TagLogIntelligence.Business.csproj">
+      <Project>{a817a90e-680a-4676-b12a-4b1d6397edf9}</Project>
+      <Name>TagLogIntelligence.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TagLogIntelligence.Domain\TagLogIntelligence.Domain.csproj">
+      <Project>{17824aaa-0718-40ae-a21f-be6f3c002b49}</Project>
+      <Name>TagLogIntelligence.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

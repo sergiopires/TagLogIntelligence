@@ -48,3 +48,11 @@ C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\obj\Debug\TagLogIntellige
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\obj\Debug\TagLogIntelligence.WebAPI.pdb
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\Swashbuckle.Core.dll
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\WebActivatorEx.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.Business.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.Domain.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.Repository.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\AutoMapper.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.Business.pdb
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.Domain.pdb
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.Repository.pdb
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\AutoMapper.xml
