@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using TagLogIntelligence.Domain;
+using TagLogIntelligence.Domain.Models;
 
 namespace TagLogIntelligence.Business.Mappers
 {
@@ -13,8 +15,7 @@ namespace TagLogIntelligence.Business.Mappers
         {
             Mapper.Initialize(x =>
                {
-                   x.AddProfile<DomainToViewModelMappingProfile>();
-                   x.AddProfile<ViewModelToDomainMappingProfile>();
+                   x.CreateMap<ArquivoVip, ARQUIVO_VIP>();
                });
         }
     }
