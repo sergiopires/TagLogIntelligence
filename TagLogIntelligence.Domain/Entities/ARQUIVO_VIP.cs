@@ -19,5 +19,6 @@ namespace TagLogIntelligence.Domain
         public String ARQ_VIP_UF { get; set; }
         public String ARQ_VIP_CIDADE { get; set; }
         public String ARQ_VIP_CEP { get; set; }
+        public DateTime ARQ_DATA_IMPORTACAO { get; set; }
     }
 }

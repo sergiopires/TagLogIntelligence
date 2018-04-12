@@ -11,7 +11,7 @@ namespace TagLogIntelligence.Repository.IRepository
     {
         IEnumerable<ARQUIVO_VIP> lstArquivo();
         void Atualizar(ARQUIVO_VIP arq_vip);
-        void Inserir(ARQUIVO_VIP arq_vip);
+        void InserirVips(List<ARQUIVO_VIP> arq_vip);
         void Excluir(Int32 id);
     }
 }

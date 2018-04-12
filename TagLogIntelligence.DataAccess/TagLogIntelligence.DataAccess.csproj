@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +58,12 @@
     <Content Include="Tables\TLI_ARQUIVO_VIP_CREATE.sql">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TagLogIntelligence.Domain\TagLogIntelligence.Domain.csproj">
+      <Project>{17824AAA-0718-40AE-A21F-BE6F3C002B49}</Project>
+      <Name>TagLogIntelligence.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

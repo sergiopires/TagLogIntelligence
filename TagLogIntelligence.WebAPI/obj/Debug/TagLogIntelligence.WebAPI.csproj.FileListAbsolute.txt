@@ -56,3 +56,8 @@ C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.Bu
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.Domain.pdb
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.Repository.pdb
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\AutoMapper.xml
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.DataAccess.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\EntityFramework.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.DataAccess.pdb
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\TagLogIntelligence.DataAccess.dll.config
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.WebAPI\bin\EntityFramework.xml

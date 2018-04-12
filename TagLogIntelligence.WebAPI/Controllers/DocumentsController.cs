@@ -30,8 +30,8 @@ namespace TagLogIntelligence.WebAPI.Controllers
            required = true,
            type = "file"
        )]
-
-        public async Task<IHttpActionResult> Post()
+        [HttpPost]
+        public IHttpActionResult Post()
         {
             System.Web.HttpFileCollection hfc = System.Web.HttpContext.Current.Request.Files;
 

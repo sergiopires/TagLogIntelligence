@@ -136,7 +136,10 @@ namespace TagLogIntelligence.WebAPI.App_Start
             var SwaggerParameterAttribute = apiDescription.GetControllerAndActionAttributes<SwaggerParameterAttribute>();
             if (SwaggerParameterAttribute.Any())
             {
-                foreach (var P in SwaggerParameterAttribute)
+                if (operation.parameters == null)
+                            operation.parameters = new List<Parameter>();
+
+                    foreach (var P in SwaggerParameterAttribute)
                 {
                     operation.parameters.Add(new Parameter()
                     {
