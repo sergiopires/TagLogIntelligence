@@ -13,3 +13,4 @@ C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntel
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntelligence.DataAccess.dll
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntelligence.DataAccess.pdb
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntelligence.DataAccess.dll.config
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntelligence.Repository.dll.config

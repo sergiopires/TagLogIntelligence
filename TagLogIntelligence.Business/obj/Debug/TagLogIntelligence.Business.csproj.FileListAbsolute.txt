@@ -17,3 +17,4 @@ C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Business\bin\Debug\AutoMapper.xm
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Business\bin\Debug\Newtonsoft.Json.xml
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Business\bin\Debug\EntityFramework.dll
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Business\bin\Debug\EntityFramework.xml
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Business\bin\Debug\TagLogIntelligence.Repository.dll.config

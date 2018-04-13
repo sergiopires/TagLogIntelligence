@@ -44,7 +44,8 @@ namespace TagLogIntelligence.Business
 
                 while ((linha = rd.ReadLine()) != null)
                 {
-                    Regex CSVParser = new Regex(",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))[A-Za-zÀ-ú]+ -?[A-Za-zÀ-ú]+");
+                    Regex CSVParser = new Regex(@",(?=(?:[^\""]*\""[^\""]*\"")*(?![^\""]*\""))");
+
                     String[] Fields = CSVParser.Split(linha);
                     lstVips.Add(Fields);
 
@@ -52,22 +53,32 @@ namespace TagLogIntelligence.Business
                 rd.Close();
             }
 
+            var lstTotalOk = from c in lstVips
+                             where lstArqVip.Any(x => x.ARQ_VIP_BAIRRO.Equals(""))
+                             select c;
+
+
             for (int i = 1; i < lstVips.Count; i++)
             {
-                arquivoVip.ARQ_VIP_ID = Guid.NewGuid();
-                arquivoVip.ARQ_VIP_PARAMETRO_EVENTO = ((string[])lstVips[i])[0];
-                arquivoVip.ARQ_VIP_EMPRESA = ((string[])lstVips[i])[1];
-                arquivoVip.ARQ_VIP_NOME = ((string[])lstVips[i])[2];
-                arquivoVip.ARQ_VIP_ENDERECO = ((string[])lstVips[i])[3];
-                arquivoVip.ARQ_VIP_NR = ((string[])lstVips[i])[4] == null ? "" : ((string[])lstVips[i])[4];
-                arquivoVip.ARQ_VIP_BAIRRO = ((string[])lstVips[i])[5];
-                arquivoVip.ARQ_VIP_COMPLEMENTO = ((string[])lstVips[i])[6];
-                arquivoVip.ARQ_VIP_UF = ((string[])lstVips[i])[7];
-                arquivoVip.ARQ_VIP_CIDADE = ((string[])lstVips[i])[8];
-                arquivoVip.ARQ_VIP_CEP = ((string[])lstVips[i])[9];
-                arquivoVip.ARQ_DATA_IMPORTACAO = DateTime.Now;
+                if (((string[])lstVips[i]).Length != 1 && ((string[])lstVips[i]).Length == 10)
+                {
 
-                lstArqVip.Add(arquivoVip);
+                    arquivoVip.ARQ_VIP_ID = Guid.NewGuid();
+                    arquivoVip.ARQ_VIP_PARAMETRO_EVENTO = ((string[])lstVips[i])[0];
+                    arquivoVip.ARQ_VIP_EMPRESA = ((string[])lstVips[i])[1];
+                    arquivoVip.ARQ_VIP_NOME = ((string[])lstVips[i])[2];
+                    arquivoVip.ARQ_VIP_ENDERECO = ((string[])lstVips[i])[3];
+                    arquivoVip.ARQ_VIP_NR = ((string[])lstVips[i])[4];
+                    arquivoVip.ARQ_VIP_BAIRRO = ((string[])lstVips[i])[5];
+                    arquivoVip.ARQ_VIP_COMPLEMENTO = ((string[])lstVips[i])[6];
+                    arquivoVip.ARQ_VIP_UF = ((string[])lstVips[i])[7];
+                    arquivoVip.ARQ_VIP_CIDADE = ((string[])lstVips[i])[8];
+                    arquivoVip.ARQ_VIP_CEP = ((string[])lstVips[i])[9];
+                    arquivoVip.ARQ_DATA_IMPORTACAO = DateTime.Now;
+
+                    lstArqVip.Add(arquivoVip);
+                }
+
             }
 
             _arq_Rep.InserirVips(lstArqVip);
