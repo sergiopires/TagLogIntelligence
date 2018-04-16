@@ -5,8 +5,11 @@ C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\EntityFrame
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\EntityFramework.xml
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\EntityFramework.SqlServer.xml
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\obj\Debug\TagLogIntelligence.Repository.csprojResolveAssemblyReference.cache
-C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\obj\Debug\TagLogIntelligence.Repository.csproj.CoreCompileInputs.cache
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\obj\Debug\TagLogIntelligence.Repository.dll
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\obj\Debug\TagLogIntelligence.Repository.pdb
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntelligence.Domain.dll
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntelligence.Domain.pdb
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntelligence.DataAccess.dll
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntelligence.DataAccess.pdb
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntelligence.DataAccess.dll.config
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Repository\bin\Debug\TagLogIntelligence.Repository.dll.config
