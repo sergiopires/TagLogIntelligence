@@ -50,8 +50,6 @@ namespace TagLogIntelligence.Business
 
         public void InsertDataFileVip(string fileName, Stream inputStream, string contentType)
         {
-          
-
             var lstArqVip = new List<ARQUIVO_VIP>();
 
             List<dynamic> lstVips = new List<dynamic>();

@@ -9,6 +9,7 @@ namespace TagLogIntelligence.WebAPI.Controllers
 {
     public class ValuesController : ApiController
     {
+        [Authorize(Roles = "Usuario")]
         // GET api/values
         public IEnumerable<string> Get()
         {

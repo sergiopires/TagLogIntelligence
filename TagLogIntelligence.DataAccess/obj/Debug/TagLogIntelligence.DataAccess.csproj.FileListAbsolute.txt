@@ -10,3 +10,4 @@ C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\obj\Debug\TagLogIntel
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\obj\Debug\TagLogIntelligence.DataAccess.pdb
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\bin\Debug\TagLogIntelligence.Domain.dll
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\bin\Debug\TagLogIntelligence.Domain.pdb
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.DataAccess\obj\Debug\TagLogIntelligence.DataAccess.csproj.CoreCompileInputs.cache

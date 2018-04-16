@@ -11,7 +11,7 @@ namespace TagLogIntelligence.WebAPI.App_Start
     {
         public void Apply(Operation operation, SchemaRegistry schemaRegistry, ApiDescription apiDescription)
         {
-            
+
             //var vSwaggerAuthorizationTokenAttribute = apiDescription.GetControllerAndActionAttributes<PortalCoreAuthorization>();
             //if (vSwaggerAuthorizationTokenAttribute.Any())
             //{
@@ -131,15 +131,15 @@ namespace TagLogIntelligence.WebAPI.App_Start
             //    });
             //}
 
-          
+
 
             var SwaggerParameterAttribute = apiDescription.GetControllerAndActionAttributes<SwaggerParameterAttribute>();
             if (SwaggerParameterAttribute.Any())
             {
                 if (operation.parameters == null)
-                            operation.parameters = new List<Parameter>();
+                    operation.parameters = new List<Parameter>();
 
-                    foreach (var P in SwaggerParameterAttribute)
+                foreach (var P in SwaggerParameterAttribute)
                 {
                     operation.parameters.Add(new Parameter()
                     {
@@ -151,6 +151,17 @@ namespace TagLogIntelligence.WebAPI.App_Start
                     });
                 }
             }
+            if (operation.parameters == null)
+                operation.parameters = new List<Parameter>();
+
+            operation.parameters.Add(new Parameter()
+            {
+                name = "Authorization",
+                @in = "header",
+                description = "OAUTH (Example: 'Bearer TOKEN')",
+                required = false,
+                type = "string"
+            });
 
 
         }

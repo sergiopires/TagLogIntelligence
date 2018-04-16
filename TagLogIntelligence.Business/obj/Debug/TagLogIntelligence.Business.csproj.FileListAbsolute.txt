@@ -17,3 +17,4 @@ C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Business\bin\Debug\Newtonsoft.Js
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Business\bin\Debug\EntityFramework.dll
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Business\bin\Debug\EntityFramework.xml
 C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Business\bin\Debug\TagLogIntelligence.Repository.dll.config
+C:\TAGLOG\TagLogIntelligence\TagLogIntelligence.Business\obj\Debug\TagLogIntelligence.Business.csproj.CoreCompileInputs.cache

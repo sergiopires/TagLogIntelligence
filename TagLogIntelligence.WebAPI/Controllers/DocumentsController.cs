@@ -22,11 +22,15 @@ namespace TagLogIntelligence.WebAPI.Controllers
             return Ok(data);
         }
 
+        /// <summary>
+        /// Método para inserir os registros csv
+        /// </summary>
+        /// <returns>não retorna</returns>
 
         [SwaggerParameter(
-           name = "certificateFile",
+           name = "CSVFile",
            @in = "formData",
-           description = "Certificate Stream",
+           description = "Csv Stream",
            required = true,
            type = "file"
        )]

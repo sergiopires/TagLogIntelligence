@@ -15,8 +15,9 @@ namespace TagLogIntelligence.DataAccess
 
         //Colocar no Web.Config
 
-        public Conexao() : base(@"Data Source=SERGIORAMOS;Initial Catalog=TagLogIntelligence;Integrated Security=True")
+        public Conexao() : base(@"Data Source=AV-T460-8200\SQLEXPRESS;Initial Catalog=TagLogIntelligence;Integrated Security=True")
         //ConfigurationManager.AppSettings["DEFAULT"]
+        //Data Source=SERGIORAMOS;Initial Catalog=TagLogIntelligence;Integrated Security=True
         //base(@"Data Source=AV-T460-8200\SQLEXPRESS;Initial Catalog=TagLogIntelligence;Integrated Security=True")
         {
         }
