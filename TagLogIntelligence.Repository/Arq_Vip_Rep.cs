@@ -25,11 +25,8 @@ namespace TagLogIntelligence.Repository
             using (var conexao = new Conexao())
             {
                 foreach (var item in arq_vip)
-                {
-                    
-                    conexao.ArquivoVips.Add(item);
-                    
-                   
+                {                    
+                    conexao.ArquivoVips.Add(item);                
                 }
                 conexao.SaveChanges();
 
